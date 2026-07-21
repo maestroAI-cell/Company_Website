@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: silver;
+    padding: 20px;
+    border-radius: 5px;
+}
+header a {
+    text-decoration: none;
+    margin-left: 20px;
+    justify-content: center;
+    background-color: rgb(36, 36, 85);
+    border-radius: 20px;
+    padding: 9px;
+    color: lightblue;
+
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-image{
+    width: 30px;
+    height: 30px;
+    display: block;
+   
+}
+.h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+
+}

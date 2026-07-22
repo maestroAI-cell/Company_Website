@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f4f8;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-form {
+    width: 380px;
+    height: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+}
+
+.signin-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signin-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #0078d4;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #0078d4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005ea6;
+}
+
+.signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup a {
+    color: #0078d4;
+    text-decoration: none;
+}

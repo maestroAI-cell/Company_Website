@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(188, 217, 235);
+    margin: 0;
+    display: grid;
+    align-items: center;
+}
+.site-header {
+    background-color: rgb(23, 128, 128);
+}
+.nav {
+    background-color: darkslategrey;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+}
+section
+{
+    border: 1px solid blue;
+    margin-left: 170px;
+}

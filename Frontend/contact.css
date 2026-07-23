@@ -1,7 +1,8 @@
 body {
+    display: flex;
     background-color: rgb(188, 217, 235);
     margin: 0;
-    display: grid;
+    display:grid;
     align-items: center;
 }
 .site-header {
@@ -19,8 +20,18 @@ li a {
     text-align: center;
     padding: 14px 16px;
 }
-nav
-{
-    float: center;
+.navigation {
+    justify-content: flex-end;
+    text-decoration: none;
+    margin : left 7px; ;
+    width: 150px; 
+    border: 1px solid black;
 }
-
+section
+{
+    border: 1px solid blue;
+    margin-left: 170px;
+}
+.signin-btn{
+    background-color: blue;
+}

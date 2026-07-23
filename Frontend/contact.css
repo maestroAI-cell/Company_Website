@@ -9,7 +9,7 @@ body {
 }
 .nav {
     display: flex;
-    background-color:black;
+    background-color:rgb(13, 42, 71);
     gap: 3px;
     
 }

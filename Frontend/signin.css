@@ -22,7 +22,7 @@ body {
 .signin-form {
     width: 380px;
     height: auto;
-    background: white;
+    background: rgb(171, 207, 207);
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
@@ -35,7 +35,7 @@ body {
 
 .signin-form p {
     text-align: center;
-    color: #666;
+    color: #252020;
     margin-bottom: 25px;
 }
 

@@ -20,7 +20,7 @@ header {
     color:black;
 }
 header a {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Cambria, Cochin, Georgia, Times, "'Times New Roman', serif;
     text-decoration: none;
     margin-left: 10px;
     justify-content: center;
@@ -37,13 +37,18 @@ header a {
 }
 .logo {
     display: grid;
-    grid-template-columns: 20px 20px;
-    grid-template-rows: 20px 20px;
+    grid-template-columns: 15px 15px;
+    grid-template-rows: 15px 15px;
+    box-shadow: 0cqmin;
     gap: 3px;
     width: fit-content;
 }
 .logo span{
     background: silver;
+    grid-template-columns: inherit;
 }
-   
+.hero{
+    margin: 0;
+    border-style: solid;
+}
 

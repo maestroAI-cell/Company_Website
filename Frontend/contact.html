@@ -1,47 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="contact.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <h1>Contact Page</h1>
-      <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="services.html">Services</a>
-      </nav>
-    </header>
-    <main class="site-main">
-      <section>
-        <h2>Contact Information</h2>
-        <form action="#" method="post">
-          <label for="name">Full Name:</label><br />
-          <input type="text" id="name" name="name" required /><br /><br />
-          <label for="contact">Phone Number:</label><br />
-          <input type="tel" id="contact" name="contact" required /><br /><br />
-          <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
-          <label for="message">Message</label><br />
-          <input type="text" id="message" name="message" required /><br /><br />
-          <input type="submit" value="submit" class="submit-btn"/><br /><br />
-        </form>
-      </section>
-      <aside>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css"/>
+    <title>Contact Infinity Tech</title>
+</head>
+<body>
 
-        <h3>Contact Us</h3>
-        <p>-Email: info@example.com</p>
-        <p>-Phone: +237 XXX XXX XXX</p>
-        <p>Address:Town, Country</p>
-        <p>Business Hours: Monday-Friday, 7:00AM-4:30PM</p>
-      </aside>
-    </main>
-    <footer class="site-footer">
-      <p>&copy; 2026 Company Website</p>
+    <header class="header">
+        <div class="header__logo">
+          <svg
+            class="header__logo-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 50"
+            width="200"
+            height="100"
+          >
+            <!-- Infinity Symbol Path -->
+            <path
+              d="M10,25 
+              C10,5 40,5 50,25 
+              C60,45 90,45 90,25 
+              C90,5 60,5 50,25 
+              C40,45 10,45 10,25 Z"
+              fill="none"
+              stroke="white"
+              stroke-width="4"
+            />
+          </svg>
+          <span>INFINITY TECH</span>
+        </div>
+  
+        <nav class="header__nav">
+            <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="team.html">Our Team</a>
+          <a href="news.html">News</a>
+          <a href="about.html">About Us</a>
+        </nav>
+  
+        <div class="header__actions">
+          <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+      </header>
+    
+    <section class="hero">
+        <h2>Reach out to us</h2>
+    </section>
+    <section class="contact">
+        <h3>IT'S AS SIMPLE AS SAYING "HELLO"</h3>
+        <P>We would love to know more about your requirements to see how we can help you achive your Customer Experience goals. Alternatively, you can also fill up our contact form, or visit one of our offices in person.</P>
+        <div class="contact-container">
+            <div class="left">
+                <p><i class="fa-solid fa-envelope"></i>Email: example@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>Phone: XXX XXX XXX</p>
+            </div>
+            <div class="right">
+                <p><i class="fa-solid fa-location-dot"></i>Address: Limbe, Cameroon</p>
+                <p><i class="fa-regular fa-clock"></i>Business Hours: 7:30am - 4:30pm</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>@2026 Infinity Tech. All.Rights.Reserved</p>
     </footer>
-  </body>
-  <html></html>
+    <script src="index.js"></script>
+</body>
 </html>

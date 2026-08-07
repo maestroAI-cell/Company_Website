@@ -83,13 +83,13 @@ body{
   
   .hero{
     height: 300px;
-    background-image: url("contact.jpg");
+    background-image: url("contacthero.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     margin-top: 20px;
-    padding: 60px;
+    padding: 13px;
     border-radius: 30px;
 }
 .contact{
@@ -99,6 +99,7 @@ body{
 h2{
     margin-left: 30px;
     font-size: 55px;
+    color: #ffffff;
 }
 .contact-container{
     display: flex;

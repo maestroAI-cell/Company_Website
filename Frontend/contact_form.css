@@ -1,4 +1,6 @@
 body{
+    background: #f4f7fb;
+}body{
     font-family: Arial, sans-serif;
 }
 /* Header code */
@@ -80,49 +82,63 @@ body{
   
   
   /* End of header code */
-  
-  .hero{
-    height: 300px;
-    background-image: url("contacthero.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    padding: 13px;
-    border-radius: 30px;
-}
-.contact{
-    background: #ffffff;
-    padding: 50px 60px;
-}
-h2{
-    margin-left: 30px;
-    font-size: 55px;
-    color: #ffffff;
-}
-.contact-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-.left,
-.right{
-    margin-bottom: 25px;
-    
-}
-footer{
-    background: #e4e1ec;
+.link{
     text-align: center;
-    padding: 25px;
+    margin: 50px;
 }
 .link a{
-  border-radius: 5px;
-  background: #0066ff;
-  color: white;
-  text-decoration: none;
-  padding: 9px;
+    text-decoration: none;
+    background: #0066ff;
+    color: white;
+    padding: 15px ;
+    border-radius: 8px;
 }
 .link a:hover{
-  background: #004ec2;
+    background: #004ec2;
+}
+.form-section{
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-sizing: 0 0 20px rbg(0,0,0,.1);
+    box-shadow: 6px 6px 6px gray;
+}
+h2{
+    text-align: center;
+    color: #666;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+input:focus, textarea:focus{
+    border-color: #0066ff;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    background: #0066ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background: #004ec2;
 }

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Insights - Infinity Tech</title>
+  <link rel="stylesheet" href="news.css">
+</head>
+<body>
+  <!-- HEADER (reuse from your home page if you have it) -->
+  <header class="header">
+      <div class="header__logo">
+        <svg
+          class="header__logo-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 50"
+          width="200"
+          height="100"
+        >
+          <!-- Infinity Symbol Path -->
+          <path
+            d="M10,25 
+            C10,5 40,5 50,25 
+            C60,45 90,45 90,25 
+            C90,5 60,5 50,25 
+            C40,45 10,45 10,25 Z"
+            fill="none"
+            stroke="white"
+            stroke-width="4"
+          />
+        </svg>
+        <span>INFINITY TECH</span>
+      </div>
+
+      <nav class="header__nav">
+        <a href="services.html">Services</a>
+        <a href="team.html">Our Team</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <div class="header__actions">
+      <a href="signin.html" class="header__signup">Sign In</a> 
+        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
+      </div>
+  <!-- MAIN CONTENT -->
+  <main class="news-page">
+    
+    <!--NEWS HERO SECTION -->
+    
+    <section class="featured-news">
+      <div class="featured-news__container">
+        <div class="featured-news__image">
+          <!-- Use Unsplash URLs or local images.  -->
+          <img src="https://images.unsplash.com/photo-1666792821267-37c149324e38?w=800&h=400&fit=crop" 
+                alt="Latest Technology News Insights" class="featured-news__img">
+        </div>
+        <div class="featured-news__content">
+          <span class="featured-news__badge">Featured</span>
+          <h1 class="featured-news__title">Latest Technology News Insights</h1>
+          <p class="featured-news__description">
+            Stay informed with the latest innovations. Cybersecurity updates, AI breakthroughs, 
+            software trends and company announcements from Infinity Tech.
+          </p>
+          <a href="#" class="featured-news__cta">Read More →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT WRAPPER (flex layout for sidebar + articles) -->
+    <div class="news-layout">
+      
+      <!-- SIDEBAR WITH CATEGORIES -->
+      <aside class="sidebar">
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Categories</h3>
+          <ul class="categories-list">
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="ai">
+                Artificial Intelligence
+              </a>
+            </li>
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="cybersecurity">
+                Cybersecurity
+              </a>
+            </li>
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="software">
+                Software Development
+              </a>
+            </li>
+
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="cloud">
+                Cloud Computing
+              </a>
+            </li>
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="web">
+                Web Development
+              </a>
+            </li>
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="robotics">
+                Robotics
+              </a>
+            </li>
+            <li class="categories-list__item">
+              <a href="#" class="categories-list__link" data-category="company">
+                Company News
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RECENT POSTS SIDEBAR SECTION -->
+        <div class="sidebar__section">
+          <h3 class="sidebar__title">Recent Posts</h3>
+          <ul class="recent-posts">
+            <li class="recent-posts__item">
+              <a href="#" class="recent-posts__link">
+                Why every business needs a website: Top 5 AI trends in 2026
+              </a>
+            </li>
+            <li class="recent-posts__item">
+              <a href="#" class="recent-posts__link">
+                The future of cloud computing
+              </a>
+            </li>
+            <li class="recent-posts__item">
+              <a href="#" class="recent-posts__link">
+                How to stay safe online
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- ARTICLES GRID -->
+      <section class="articles">
+        <h2 class="articles__title">Latest Articles</h2>
+        
+        <!-- ARTICLE GRID CONTAINER (3 columns on desktop) -->
+        <div class="articles__grid">
+          
+          <!-- ARTICLE CARD 1 -->
+          <article class="article-card">
+            <div class="article-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" 
+                   alt="Tech Innovation" class="article-card__image">
+              <span class="article-card__category">Tech Innovation</span>
+            </div>
+            <div class="article-card__content">
+              <h3 class="article-card__title">Discover the next wave of innovations</h3>
+              <p class="article-card__excerpt">
+                Explore breakthrough technologies that are shaping tomorrow's business landscape.
+              </p>
+              <a href="#" class="article-card__read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE CARD 2 -->
+          <article class="article-card">
+            <div class="article-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1677442d019cecf8978b4e253d84b939e0244b88?w=400&h=250&fit=crop" 
+                   alt="Artificial Intelligence" class="article-card__image">
+              <span class="article-card__category">Artificial Intelligence</span>
+            </div>
+            <div class="article-card__content">
+              <h3 class="article-card__title">Learn how AI is reshaping everyday life</h3>
+              <p class="article-card__excerpt">
+                From smart assistants to predictive analytics, AI breakthroughs are everywhere.
+              </p>
+              <a href="#" class="article-card__read-more">Read Article →</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE CARD 3 -->
+          <article class="article-card">
+            <div class="article-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" 
+                   alt="Data & Cybersecurity" class="article-card__image">
+              <span class="article-card__category">Cybersecurity</span>
+            </div>
+            <div class="article-card__content">
+              <h3 class="article-card__title">Protect your data in an evolving threat landscape</h3>
+              <p class="article-card__excerpt">
+                Essential cybersecurity strategies and cyber threats explained for modern businesses.
+              </p>
+              <a href="#" class="article-card__read-more">Read Article →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- LOAD MORE BUTTON -->
+        <div class="articles__load-more">
+          <button class="btn btn--primary" id="loadMoreBtn">Load More Articles</button>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__text">© 2026 Infinity Tech. All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="news.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

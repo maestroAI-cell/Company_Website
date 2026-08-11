@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
-    background-color: #003366;
+    background-color: #0066ff;
     border-bottom: 1px solid lightgray;
   }
   
@@ -109,6 +109,7 @@ h2{
 .left,
 .right{
     margin-bottom: 25px;
+    
 }
 footer{
     background: #e4e1ec;

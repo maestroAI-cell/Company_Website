@@ -9,50 +9,33 @@
 <body>
   <!-- HEADER (reuse from your home page if you have it) -->
   <header class="header">
+    <div class="header__container">
       <div class="header__logo">
-        <svg
-          class="header__logo-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 50"
-          width="200"
-          height="100"
-        >
-          <!-- Infinity Symbol Path -->
-          <path
-            d="M10,25 
-            C10,5 40,5 50,25 
-            C60,45 90,45 90,25 
-            C90,5 60,5 50,25 
-            C40,45 10,45 10,25 Z"
-            fill="none"
-            stroke="white"
-            stroke-width="4"
-          />
-        </svg>
-        <span>INFINITY TECH</span>
+        <a href="index.html" class="logo">∞ Infinity Tech</a>
       </div>
-
       <nav class="header__nav">
-        <a href="services.html">Services</a>
-        <a href="team.html">Our Team</a>
-        <a href="news.html">News</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Service</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+          <li class="nav__item"><a href="news.html" class="nav__link nav__link--active">News</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
       </nav>
+    </div>
+  </header>
 
-      <div class="header__actions">
-      <a href="signin.html" class="header__signup">Sign In</a> 
-        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
-      </div>
   <!-- MAIN CONTENT -->
   <main class="news-page">
     
-    <!--NEWS HERO SECTION -->
-    
+    <!-- FEATURED NEWS HERO SECTION -->
+    <!-- This is the large prominent article at the top -->
     <section class="featured-news">
       <div class="featured-news__container">
         <div class="featured-news__image">
-          <!-- Use Unsplash URLs or local images.  -->
+          <!-- Use Unsplash URLs or local images. Example: /images/tech-innovation.jpg -->
+          <!-- Search terms: "AI technology", "cybersecurity", "cloud computing" -->
           <img src="https://images.unsplash.com/photo-1666792821267-37c149324e38?w=800&h=400&fit=crop" 
                 alt="Latest Technology News Insights" class="featured-news__img">
         </div>
@@ -91,7 +74,6 @@
                 Software Development
               </a>
             </li>
-
             <li class="categories-list__item">
               <a href="#" class="categories-list__link" data-category="cloud">
                 Cloud Computing
@@ -212,6 +194,5 @@
   </footer>
 
   <script src="news.js"></script>
-  <script src="index.js"></script>
 </body>
 </html>

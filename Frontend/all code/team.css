@@ -157,8 +157,13 @@ body {
         gap: 15px;
     }
 
+    
     .header__nav {
+
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+footer{
+  text-align: center;
 }

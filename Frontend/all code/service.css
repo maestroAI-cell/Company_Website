@@ -10,12 +10,15 @@ body {
     font-family: Arial, sans-serif;
     color: #222;
     line-height: 1.5;
+<<<<<<< HEAD
+=======
 
     background-image: url("OIP.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+>>>>>>> d470e9563e815eab17ff2379572c37f907ff6243
 }
 .body-card {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);

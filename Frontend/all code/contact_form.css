@@ -104,6 +104,10 @@ body{
     border-radius: 15px;
     box-sizing: 0 0 20px rbg(0,0,0,.1);
     box-shadow: 6px 6px 6px gray;
+      /* font-size: 40px;
+    margin-bottom: 60px;
+    color: white;
+    background-color:   #003366;; */
     
 }
 h2{
@@ -134,12 +138,15 @@ input:focus, textarea:focus{
 button{
     display: block;
     margin: 20px auto;
-    padding: 15px;
-    background: #0066ff;
+    background-color:  #003366;
     color: white;
-    border-radius: 6px;
+     padding:15px 35px;
+    border-radius: 8px;
     cursor: pointer;
 }
 button:hover{
-    background: #004ec2;
+     transform: translate(-3px);
+        transition:0.3s ease;
+        box-shadow:0 8px 20px
+          #003366;;
 }

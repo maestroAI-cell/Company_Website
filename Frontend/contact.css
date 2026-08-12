@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
-    background-color: #0066ff;
+    background-color: #003366;
     border-bottom: 1px solid lightgray;
   }
   
@@ -115,6 +115,10 @@ footer{
     background: #e4e1ec;
     text-align: center;
     padding: 25px;
+}
+.link{
+  display: flex;
+  justify-content: flex-end;
 }
 .link a{
   border-radius: 5px;

@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
-    background-color: #0066ff;
+    background-color: #003366;
     border-bottom: 1px solid lightgray;
   }
   
@@ -104,6 +104,7 @@ body{
     border-radius: 15px;
     box-sizing: 0 0 20px rbg(0,0,0,.1);
     box-shadow: 6px 6px 6px gray;
+    
 }
 h2{
     text-align: center;

@@ -1,45 +1,85 @@
 
-.header__nav {
-  display: flex;
-  gap: 24px;
-}
-
-.header__nav a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.header__signup {
-  background-color: rgb(43, 165, 206);
-  color: #fff;
-  border: none;
-  padding: 8px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 
-}
-body{
-    background: #fff;
-    color: #111;
-
-}
-header{
-    width: 90%;
-    margin: auto;
+ }
+/* 
+ .header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
-}
+    justify-content: space-between;
+    padding:20px 20px;
+    max-width: 1200px;
+    margin: auto;
+} */
 
+.header_logo {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 10px;
+     margin-bottom: 10px; 
+     margin-top: 1px;
+
+  
+} 
+
+.header_text span{
+    font-size: 20px;
+    font-weight: 700;
+      margin-bottom: 10px; 
+
+    
+}
+.header_nav {
+  gap: 10px; 
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.0rem 150px;
+    max-width: 1000px;
+    /* margin: auto; */
+    margin-left: 45%;
+
+}   
+ .header_nav a{
+  
+    display: inline-block;
+    background-color: rgb(12, 114, 150);
+    color: white;
+    padding:10px 22px;
+    border-radius: 8px; 
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.2s ease;
+      margin-bottom: 10px; 
+} 
+.header_nav :hover{
+    background-color: rgb(12, 114, 150) ;
+}
+.header__signup{
+    text-decoration: none;
+    background-color: rgb(12, 114, 150);
+    color: white;
+    padding:10px 24px;
+    text-align: 5px;
+    margin-left: 92%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+     margin-bottom: 10px; 
+     margin-top: 1%;
+  
+}
+.header__signup :hover{
+    background-color: rgb(12, 114, 150) ;
+      transition:0.2s ease;
+}
 
 .hero{
     width: 90%;
@@ -126,15 +166,14 @@ header{
 
 }
 .value-box h3{
-    /* background-color:    rgb(12, 114, 150) ; */
      color:rgb(12, 114, 150) ;
 }
 .value-box h3:hover{
         transform: translate(-3px);
         transition:0.3s ease;
-        box-shadow:0 8px 20px
-        rgb(12, 114, 150);
-}
+        text-shadow:0 8px 20px
+        rgb(12, 114, 150); 
+}  
 .footer-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
@@ -153,4 +192,12 @@ header{
         transition:0.3s ease;
         text-shadow:0 8px 20px
         rgb(12, 114, 150);
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
 }

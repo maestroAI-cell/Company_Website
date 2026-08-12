@@ -50,15 +50,6 @@ body{
     font-size: 14px;
 }
 
-.header__signup{
-    background-color: rgb(43, 165, 206);
-    color: #fff;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 .hero{
     padding: 20px 20px;
     max-width: 700px;

@@ -5,16 +5,17 @@
     
 }
 
-body{
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
     color: #222;
     line-height: 1.5;
-    
 }
-
-.body-card{
-     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-     margin-top: solid 2px black;
+.body-card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    color: #ffffff;
+    font-size: 18px;
 }
 .header{
     display: flex;
@@ -50,15 +51,6 @@ body{
     font-size: 14px;
 }
 
-.header__signup{
-    background-color: rgb(43, 165, 206);
-    color: #fff;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 .hero{
     padding: 20px 20px;
     max-width: 700px;
@@ -72,44 +64,168 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #003366;
+    font-size: 30px;
+  
+}
+/* SERVICES SECTION */
+
+.services-section {
+    min-height: 100vh;
+    padding: 80px 8%;
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f1f7ff
+    );
 }
 
-.service-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    gap: 90px;
-    justify-content: center;
-    margin: 50px auto;
+
+/* HEADING */
+
+.services-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 55px;
+}
+
+.section-label {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.services-heading h1 {
+    color: #123b6d;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.services-heading > p:last-child {
+    color: #667085;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* GRID */
+
+.services-grid {
     max-width: 1100px;
-    padding: 50px 50px 50px;
-   
-}
-*/ service-card */
-.service-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 25px;
-    min-height: 180px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease; 
-    background-color: #ffffff;
-    transition: 0.3s;
-}
-.service-card h3{
-    margin-bottom: 12px;
-    color: #222;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
 }
 
-.service-card p{
-    line-height: 1.6;
-    color: #666
+
+/* SERVICE CARDS */
+
+.service-card {
+    background: rgba(255, 255, 255, 0.95);
+
+    border: 1px solid #e2edfa;
+    border-radius: 18px;
+
+    padding: 30px;
+
+    box-shadow: 0 8px 25px rgba(35, 88, 145, 0.10);
+
+    transition: 0.3s ease;
 }
-.service-card:hover{
-    transform: translateY(-4px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.12);
+
+
+/* CARD HOVER */
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #b8d7ff;
+
+    box-shadow: 0 15px 35px rgba(35, 88, 145, 0.18);
+}
+
+
+/* ICON */
+
+.icon-box {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf4ff;
+    color: #1677ff;
+
+    border-radius: 12px;
+
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    font-size: 24px;
+}
+
+
+/* TITLE */
+
+.service-card h3 {
+    color: #123b6d;
+    font-size: 20px;
+
+    margin-bottom: 12px;
+}
+
+
+/* DESCRIPTION */
+
+.service-card p {
+    color: #667085;
+
+    line-height: 1.7;
+    font-size: 15px;
+
+    margin-bottom: 20px;
+}
+
+.service-card a i {
+    margin-left: 5px;
+    transition: 0.3s ease;
+}
+
+.service-card a:hover {
+    color: #0d5dcc;
+}
+
+.service-card a:hover i {
+    transform: translateX(5px);@media (max-width: 900px) {
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+   .services-section {
+        padding: 60px 5%;
+    }
+
+    .services-heading h1 {
+        font-size: 32px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 }
 footer{
     display: flex;
@@ -118,4 +234,5 @@ footer{
     margin-top: 80px;
     padding: 30px 20px;
     border-top: 1px solid #eee;
+    background-color: #666;
 }

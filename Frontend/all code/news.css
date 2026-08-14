@@ -397,7 +397,7 @@ a {
    FOOTER
    ===================================================== */
 .footer {
-  background-color: #fff;
+    background-color: #666;
   color: lightgray;
   text-align: center;
   padding: var(--spacing-lg) var(--spacing-md);

@@ -104,11 +104,14 @@ body{
     border-radius: 15px;
     box-sizing: 0 0 20px rbg(0,0,0,.1);
     box-shadow: 6px 6px 6px gray;
+<<<<<<< HEAD
+=======
       /* font-size: 40px;
     margin-bottom: 60px;
     color: white;
     background-color:   #003366;; */
     
+>>>>>>> 63d16e6952d180a385aa198ac4dc7290304ec62c
 }
 h2{
     text-align: center;

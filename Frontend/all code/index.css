@@ -39,6 +39,12 @@ body {
   gap: 24px;
 }
 
+.header__nav a{
+  color: blue;
+  border-left-color: blue;
+  padding-left: 12px;
+}
+
 .header__actions {
   display: flex;
   align-items: center;

@@ -7,29 +7,49 @@
   <link rel="stylesheet" href="news.css">
 </head>
 <body>
-  <!-- HEADER (reuse from your home page if you have it) -->
-  <header class="header">
-    <div class="header__container">
+ <!-- Header code -->
+    <header class="header">
       <div class="header__logo">
-        <a href="index.html" class="logo">∞ Infinity Tech</a>
+        <svg
+          class="header__logo-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 50"
+          width="200"
+          height="100"
+        >
+          <!-- Infinity Symbol Path -->
+          <path
+            d="M10,25 
+            C10,5 40,5 50,25 
+            C60,45 90,45 90,25 
+            C90,5 60,5 50,25 
+            C40,45 10,45 10,25 Z"
+            fill="none"
+            stroke="white"
+            stroke-width="8"
+          />
+        </svg>
+        <span>INFINITY TECH</span>
       </div>
-      <nav class="header__nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#services" class="nav__link">Service</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
-          <li class="nav__item"><a href="news.html" class="nav__link nav__link--active">News</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <!-- MAIN CONTENT -->
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="team.html">Our Team</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <div class="header__actions">
+      <a href="signin.html" class="header__signup">Sign In</a> 
+        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+<!-- ============================================= -->
+    <!-- End of header code (Reusable throughout all pages
   <main class="news-page">
     
-    <!-- FEATURED NEWS HERO SECTION -->
+    !-- FEATURED NEWS HERO SECTION -->
     <!-- This is the large prominent article at the top -->
     <section class="featured-news">
       <div class="featured-news__container">
@@ -130,7 +150,7 @@
           <!-- ARTICLE CARD 1 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" 
+              <img src="./Images/modern-digital-transformation-concept-featuring-devops-tools-cloud-technology-high-tech-interface-gestures-quark-modern-447495653.jpg" 
                    alt="Tech Innovation" class="article-card__image">
               <span class="article-card__category">Tech Innovation</span>
             </div>
@@ -146,7 +166,7 @@
           <!-- ARTICLE CARD 2 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1677442d019cecf8978b4e253d84b939e0244b88?w=400&h=250&fit=crop" 
+              <img src="/all code\Images\78a0838770693adbb9b8dc1db5af2e0d.jpg" 
                    alt="Artificial Intelligence" class="article-card__image">
               <span class="article-card__category">Artificial Intelligence</span>
             </div>
@@ -162,7 +182,7 @@
           <!-- ARTICLE CARD 3 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" 
+              <img src="/all code/Images/1c9fa10975db5e460c20eb538f1a31b2.jpg" 
                    alt="Data & Cybersecurity" class="article-card__image">
               <span class="article-card__category">Cybersecurity</span>
             </div>

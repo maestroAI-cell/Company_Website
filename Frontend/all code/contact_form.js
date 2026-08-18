@@ -11,3 +11,7 @@ function goBack() {
     form.style.display = "block";
     form.reset();
 }
+const phone = document.getElementById("phone");
+phone.addEventListener("input",function(){
+    this.value = this.value.replace(/\D/g, "");
+});

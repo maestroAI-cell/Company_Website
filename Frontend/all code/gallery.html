@@ -5,63 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PRESPRINT Plc Gallery</title>
     <link rel="stylesheet" href="gallery.css" />
-  </head>
-  <body>
-<!-- Header code -->
-    <header class="header">
-      <div class="header__logo">
-        <svg
-          class="header__logo-icon"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 50"
-          width="200"
-          height="100"
-        >
-          <!-- Infinity Symbol Path -->
-          <path
-            d="M10,25 
-            C10,5 40,5 50,25 
-            C60,45 90,45 90,25 
-            C90,5 60,5 50,25 
-            C40,45 10,45 10,25 Z"
-            fill="none"
-            stroke="white"
-            stroke-width="8"
-          />
-        </svg>
-        <span>PRESSPRINT PLC</span>
-      </div>
 
-      <nav class="header__nav">
-        <a href="services.html">Services</a>
-        <a href="team.html">Our Team</a>
-        <a href="news.html">News</a>
-        <a href="about-page.html">About Us</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
+  <header class="header">
+    <div class="header__logo">
+      <svg class="header__logo-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 50">
+        <path
+          d="M10,25
+          C10,5 40,5 50,25
+          C60,45 90,45 90,25
+          C90,5 60,5 50,25
+          C40,45 10,45 10,25 Z"
+          fill="none"
+          stroke="white"
+          stroke-width="8"/>
+      </svg>
 
-      <!-- <div class="header__actions">
-      <a href="signin.html" class="header__signup">Sign In</a> 
-        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
-      </div> -->
-      
-      <p>Explore our printing, branding and fabric production projects.</p>
+      <span>PRESPRINT Plc</span>
+    </div>
 
-      <section id="gallery" class="gallery"></section>
+    <nav class="header__nav">
+      <a href="services.html">Services</a>
+      <a href="team.html">Our Team</a>
+      <a href="news.html">News</a>
+      <a href="about-page.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+<!-- 
+    <button class="header__menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header> -->
 
-<div id="lightbox">
+  <!-- Hero -->
+  <section class="hero">
 
-    <span id="close">&times;</span>
+    <img id="hero-image" src="gallery-images/1.jpg" alt="PRESPRINT Hero">
 
-    <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="hero-overlay">
+      <h1>Our Gallery</h1>
+      <p>Printing • Branding • Fabric • Promotional Products</p>
+    </div>
+
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery"></section>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
 
     <img id="lightbox-img">
 
-    <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+    <button class="next">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
 
-</div>
+  </div>
 
-<script src="gallery.js"></script>
+  <script src="gallery.js"></script>
 
-
-    </header>
+</body>
+</html>

@@ -8,8 +8,10 @@ body {
     font-family: Arial, sans-serif;
     color: #222;
     line-height: 1.5;
-    background-image: url("picture.jpg.jpg");
-    background-attachment: fixed;
+    background-image:url(istockphoto-1163887233-170667a.jpg);
+    background-position:cennter;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Header code */
@@ -18,7 +20,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px;
-  background-color: #003366;
+  background-color: #084274;
   border-bottom: 1px solid lightgray;
 }
 
@@ -64,7 +66,6 @@ body {
   font-size: 14px;
 }
 
-
 @media (max-width: 768px) {
   /* .header {
     justify-content: space-between;
@@ -85,7 +86,6 @@ body {
   }
 }
 
-
 /* End of header code */
 
 
@@ -97,7 +97,7 @@ body {
 
 .team-section h1 {
     margin-bottom: 10px;
-    color: #003366;
+    color: #baccde;
 }
 
 .team-section > p {
@@ -173,6 +173,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
+
 }
 footer{
     display: flex;

@@ -39,6 +39,12 @@ body {
   gap: 24px;
 }
 
+.header__nav a{
+  color: blue;
+  border-left-color: blue;
+  padding-left: 12px;
+}
+
 .header__actions {
   display: flex;
   align-items: center;
@@ -211,13 +217,23 @@ body {
   flex: 1;
 }
 
-.footer {
+/* .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
   padding: 24px 20px;
   border-top: 1px solid #eee;
+    background-color: #666;
+} */
+ .footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+    background-color: #666;
 }
 
 .footer__link {

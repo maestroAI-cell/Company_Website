@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="news.css">
 </head>
 <body>
-  <!-- HEADER (reuse from your home page if you have it) -->
-  <header class="header">
+ <!-- Header code -->
+    <header class="header">
       <div class="header__logo">
         <svg
           class="header__logo-icon"
@@ -26,17 +26,17 @@
             C40,45 10,45 10,25 Z"
             fill="none"
             stroke="white"
-            stroke-width="4"
+            stroke-width="8"
           />
         </svg>
         <span>INFINITY TECH</span>
       </div>
 
       <nav class="header__nav">
+        <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="team.html">Our Team</a>
-        <a href="news.html">News</a>
-        <a href="about-page.html">About Us</a>
+        <a href="about.html">About Us</a>
         <a href="contact.html">Contact Us</a>
       </nav>
 
@@ -44,16 +44,20 @@
       <a href="signin.html" class="header__signup">Sign In</a> 
         <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
       </div>
-  <!-- MAIN CONTENT -->
+    </header>
+<!-- ============================================= -->
+    <!-- End of header code (Reusable throughout all pages
   <main class="news-page">
     
-    <!--NEWS HERO SECTION -->
-    
+    !-- FEATURED NEWS HERO SECTION -->
+    <!-- This is the large prominent article at the top -->
+
     <section class="featured-news">
       <div class="featured-news__container">
         <div class="featured-news__image">
-          <!-- Use Unsplash URLs or local images.  -->
-          <img src="https://images.unsplash.com/photo-1666792821267-37c149324e38?w=800&h=400&fit=crop" 
+          <!-- Use Unsplash URLs or local images. Example: /images/tech-innovation.jpg -->
+          <!-- Search terms: "AI technology", "cybersecurity", "cloud computing" -->
+          <img src="/all code/Images/thisisengineering-omrpeqLz6Po-unsplash.jpg" 
                 alt="Latest Technology News Insights" class="featured-news__img">
         </div>
         <div class="featured-news__content">
@@ -91,7 +95,6 @@
                 Software Development
               </a>
             </li>
-
             <li class="categories-list__item">
               <a href="#" class="categories-list__link" data-category="cloud">
                 Cloud Computing
@@ -148,7 +151,7 @@
           <!-- ARTICLE CARD 1 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop" 
+              <img src="/all code/Images/jakub-pabis-i5Ugf0xc22Q-unsplash.jpg" 
                    alt="Tech Innovation" class="article-card__image">
               <span class="article-card__category">Tech Innovation</span>
             </div>
@@ -164,7 +167,7 @@
           <!-- ARTICLE CARD 2 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1677442d019cecf8978b4e253d84b939e0244b88?w=400&h=250&fit=crop" 
+              <img src="/all code/Images/igor-omilaev-eGGFZ5X2LnA-unsplash.jpg" 
                    alt="Artificial Intelligence" class="article-card__image">
               <span class="article-card__category">Artificial Intelligence</span>
             </div>
@@ -180,7 +183,7 @@
           <!-- ARTICLE CARD 3 -->
           <article class="article-card">
             <div class="article-card__image-wrapper">
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" 
+              <img src="/all code/Images/adi-goldstein-EUsVwEOsblE-unsplash.jpg" 
                    alt="Data & Cybersecurity" class="article-card__image">
               <span class="article-card__category">Cybersecurity</span>
             </div>
@@ -211,7 +214,6 @@
     </div>
   </footer>
 
-  <script src="news.js"></script>
-  <script src="index.js"></script>
+  <!-- <script src="news.js"></script> -->
 </body>
 </html>

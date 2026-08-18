@@ -1,7 +1,7 @@
 
 // Smooth scroll for the Learn More button
 const learnButton = document.querySelector(".learn-button");
-const valuesSection = document.querySelector(".values");
+const valuesSection = document.querySelector(".info-grid");
 
 learnButton.addEventListener("click", function (event) {
     event.preventDefault();

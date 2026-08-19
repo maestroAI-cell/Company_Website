@@ -39,7 +39,7 @@ body {
 .header__nav {
   display: flex;
   gap: 24px;
-}
+} 
 
 .header__actions {
   display: flex;

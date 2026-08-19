@@ -98,23 +98,22 @@ body {
 }
 
 .feature {
-  display: flex;
-  min-height: 300px;
-  max-width: auto;
-  align-items: stretch;
-  justify-content: space-between;
-  gap: 40px;
-  background-color: #003366;
-  color: #ffffff;
-  padding: 2px;
-  border-radius: 12px;
-  overflow: hidden;
-  margin: 40px auto;
+    background-image: url("./Images/Screenshot_20260818_091520_Google.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
 }
 
 .feature__content {
   flex: 1;
-  background-color: #003366;
   color: #ffffff;
   padding: 60px 40px;
   display: flex;
@@ -131,7 +130,7 @@ body {
   font-size: 15px;
   color: #cbd5e1;
 }
-
+/* 
 .feature__image {
   flex: 1;
   background-size: cover;
@@ -140,7 +139,7 @@ body {
   overflow: hidden;
   background-position: center;
   position: relative;
-} 
+}  */
 
 .feature__icon {
   width: 48px;

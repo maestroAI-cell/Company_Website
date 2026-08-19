@@ -87,13 +87,13 @@ body {
 .gallery-hero__overlay{
     position:absolute;
     inset:0;
-    background:rgba(0,0,0,.45);
+    background:white;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
-    color:white;
+    color: #003366;
     padding:20px;
 }
 

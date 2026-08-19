@@ -109,10 +109,15 @@ h2{
     margin-bottom: 25px;
     
 }
-footer{
-    background: #e4e1ec;
-    text-align: center;
-    padding: 25px;
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+    background-color: #666;
 }
 .link{
   display: flex;

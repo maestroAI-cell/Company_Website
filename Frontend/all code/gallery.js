@@ -18,7 +18,7 @@ for(let i=1;i<=TOTAL_IMAGES;i++){
         openLightbox();
     };
 
-    gallery.appendChild(img);
+    gallery.appendChild(img);   
 }
 
 // Hero slideshow
@@ -29,7 +29,7 @@ setInterval(()=>{
     hero.style.opacity=0;
 
     setTimeout(()=>{
-        hero.src=`../gallery images/${current}.jpg`;
+        hero.src=`../../gallery images/${current}.jpg`;
         hero.style.opacity=1;
     },400);
 
@@ -41,7 +41,7 @@ const lightboxImg=document.getElementById("lightbox-img");
 
 function openLightbox(){
     lightbox.style.display="flex";
-    lightboxImg.src=`../gallery images/${current}.jpg`;
+    lightboxImg.src=`../../gallery images/${current}.jpg`;
 }
 
 document.getElementById("close").onclick=()=>{
@@ -50,10 +50,10 @@ document.getElementById("close").onclick=()=>{
 
 document.getElementById("next").onclick=()=>{
     current=current<TOTAL_IMAGES?current+1:1;
-    lightboxImg.src=`../gallery images/${current}.jpg`;
+    lightboxImg.src=`../../gallery images/${current}.jpg`;
 };
 
 document.getElementById("prev").onclick=()=>{
     current=current>1?current-1:TOTAL_IMAGES;
-    lightboxImg.src=`../gallery images/${current}.jpg`;
+    lightboxImg.src=`../../gallery images/${current}.jpg`;
 };

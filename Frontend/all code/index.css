@@ -112,7 +112,7 @@ body {
   align-items: stretch;
   justify-content: space-between;
   gap: 40px;
-  background-color: #003366;
+  /* background-color: #003366; */
   color: #ffffff;
   padding: 2px;
   border-radius: 12px;
@@ -121,8 +121,8 @@ body {
 }
 
 .feature__content {
-  flex: 1;
-  background-color: #003366;
+  /* flex: 1;
+  background-color: #003366; */
   color: #ffffff;
   padding: 60px 40px;
   display: flex;
@@ -140,16 +140,16 @@ body {
   color: #cbd5e1;
 }
 
-.feature__graphic {
+ .feature__graphic {
   flex: 1;
-  background-image: url(./Images/450efaa8fa2674bae9ac0dc2a6636e21.jpg);
+  background-image: url(logo.png);
   background-size: cover;
   padding: 2px;
-  border-radius: 20px;
+  border-radius: 20px; 
   overflow: hidden;
   background-position: center;
   position: relative;
-}
+} 
 
 .feature__icon {
   width: 48px;

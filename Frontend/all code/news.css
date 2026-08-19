@@ -167,7 +167,7 @@ a {
   line-height: 1.7;
 }
 
-.featured-news__cta {
+.featured-news__btn{
   display: inline-block;
   background-color: var(--primary-blue);
   color: #ffffff;

@@ -20,10 +20,11 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-.header__logo {
+.header__logo-img{
   display: flex;
   align-items: center;
-  font-size: 20px;
+  width: 70px ;
+  height: 70px;
   font-weight: bold;
   color: #ffffff;
   gap: 8px;
@@ -68,14 +69,14 @@ body {
   font-size: 14px;
 }
 
-.header__signup {
+/* .header__signup {
   background-color: rgb(43, 165, 206);
   color: #fff;
   border: none;
   padding: 8px 20px;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 
 /* End of header code */
 
@@ -140,11 +141,10 @@ body {
   color: #cbd5e1;
 }
 
-.feature__graphic {
+.feature__image {
   flex: 1;
-  background-image: url(./Images/450efaa8fa2674bae9ac0dc2a6636e21.jpg);
   background-size: cover;
-  padding: 2px;
+  padding: 9px;
   border-radius: 20px;
   overflow: hidden;
   background-position: center;

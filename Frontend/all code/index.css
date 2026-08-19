@@ -141,20 +141,11 @@ body {
   color: #cbd5e1;
 }
 
-<<<<<<< HEAD
- .feature__graphic {
-  flex: 1;
-  background-image: url(logo.png);
-  background-size: cover;
-  padding: 2px;
-  border-radius: 20px; 
-=======
 .feature__image {
   flex: 1;
   background-size: cover;
   padding: 9px;
   border-radius: 20px;
->>>>>>> 5d255dd96ffa549528622c38bd5398b6a8c40162
   overflow: hidden;
   background-position: center;
   position: relative;

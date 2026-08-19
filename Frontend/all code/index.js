@@ -11,5 +11,5 @@ const copyright = document.querySelector(".footer-copyright p");
 
 if (copyright) {
     copyright.textContent =
-        "© " + new Date().getFullYear() + " Infinity Tech. All Rights Reserved";
+        "© " + new Date().getFullYear() + " Presprint Plc. All Rights Reserved";
 }

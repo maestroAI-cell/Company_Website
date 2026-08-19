@@ -57,3 +57,11 @@ document.getElementById("prev").onclick=()=>{
     current=current>1?current-1:TOTAL_IMAGES;
     lightboxImg.src=`Frontend/gallery-images/${current}.jpg`;
 };
+
+// Automatically update the copyright year
+const copyright = document.querySelector(".footer-copyright p");
+
+if (copyright) {
+    copyright.textContent =
+        "© " + new Date().getFullYear() + " Presprint Plc. All Rights Reserved";
+}

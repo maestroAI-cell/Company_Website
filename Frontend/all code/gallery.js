@@ -41,7 +41,7 @@ const lightboxImg=document.getElementById("lightbox-img");
 
 function openLightbox(){
     lightbox.style.display="flex";
-    lightboxImg.src=`../../gallery images/${current}.jpg`;
+    lightboxImg.src=`../gallery images/${current}.jpg`;
 }
 
 document.getElementById("close").onclick=()=>{

@@ -190,3 +190,12 @@ body {
 @media(max-width:480px){
     .gallery-grid{column-count:1;}
 }
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+    background-color: #666;
+}

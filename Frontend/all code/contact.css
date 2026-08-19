@@ -136,3 +136,12 @@ h2{
         box-shadow:0 8px 20px
           #003366;
 }
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+    background-color: #666;
+}

@@ -2,11 +2,11 @@
    GLOBAL STYLES & VARIABLES
    ===================================================== */
 :root {
-  --primary-blue: #0066ff;
-  --dark-bg: #f5f7fa;
-  --text-dark: #1a1a1a;
-  --text-light: #666666;
-  --border-color: #e0e0e0;
+  --primary-blue: #003366;
+  --dark-bg: #f5f7a;
+  --text-dark: #222;
+  --text-light: #666;
+  --border-color: #lightgray;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
   --spacing-sm: 8px;

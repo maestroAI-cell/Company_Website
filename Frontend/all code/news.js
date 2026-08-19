@@ -124,7 +124,22 @@
 //       behavior: 'smooth'
 //     });
     
+<<<<<<< HEAD
 //     // In a real app, this would navigate to the article's full page
 //     // window.location.href = this.href;
 //   });
 // });
+=======
+    // In a real app, this would navigate to the article's full page
+    // window.location.href = this.href;
+  });
+});
+
+// Automatically update the copyright year
+const copyright = document.querySelector(".footer-copyright p");
+
+if (copyright) {
+    copyright.textContent =
+        "© " + new Date().getFullYear() + " Presprint Plc. All Rights Reserved";
+}
+>>>>>>> f95ffb35ab62cc99f58435e321117a6db6ccc7da

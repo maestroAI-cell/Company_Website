@@ -1,7 +1,7 @@
 
 // Smooth scroll for the Learn More button
 const learnButton = document.querySelector(".learn-button");
-const valuesSection = document.querySelector(".values");
+const valuesSection = document.querySelector(".info-grid");
 
 learnButton.addEventListener("click", function (event) {
     event.preventDefault();
@@ -18,5 +18,5 @@ const copyright = document.querySelector(".footer-copyright p");
 
 if (copyright) {
     copyright.textContent =
-        "© " + new Date().getFullYear() + " Infinity Tech. All Rights Reserved";
+        "© " + new Date().getFullYear() + " Presprint Plc. All Rights Reserved";
 }

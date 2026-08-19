@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRESPRINT Gallery</title>
+ <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+ 
+       <header class="header">
+        <div class="header__logo">
+          <svg
+            class="header__logo-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 50"
+            width="200"
+            height="100"
+          >
+            <!-- Infinity Symbol Path -->
+            <path
+              d="M10,25 
+              C10,5 40,5 50,25 
+              C60,45 90,45 90,25 
+              C90,5 60,5 50,25 
+              C40,45 10,45 10,25 Z"
+              fill="none"
+              stroke="white"
+              stroke-width="4"
+            />
+          </svg>
+          <span>PRESPRINT PLC</span>
+        </div>
+  
+          <nav class="header__nav">
+         <a href="index.html">Home</a>
+         <a href="about-page.html">About Us</a>
+         <a href="contact.html">Contact Us</a>
+        <a href="gallery.html">Gallery</a>
+         <a href="news.html">News</a>
+      </nav>
+  
+         <div class="header__actions">
+           <!-- <button class="header__menu-btn" aria-label="Toggle menu">☰</button>  -->
+        </div>   
+      </div>
+      </header>
+
+ <section class="gallery-hero">
+    <img id="hero-image" src="../gallery-images/1.jpg" alt="PRESPRINT Gallery">
+
+    <div class="gallery-hero__overlay">
+        <h1>Our Gallery</h1>
+        <p>Explore PRESPRINT's printing, branding and production projects.</p>
+    </div>
+</section>
+
+<section id="gallery" class="gallery-grid"></section>
+
+<div id="lightbox" class="lightbox">
+    <span id="close">&times;</span>
+
+    <button id="prev">&#10094;</button>
+
+    <img id="lightbox-img">
+
+    <button id="next">&#10095;</button>
+</div>
+ </footer>
+       </div>
+             <div  class="footer-copyright">
+        <p>@ 2026 PressPrint PLC.All Rights Reserved</p>
+    </div>
+
+<script src="gallery.js"></script> 
+
+</body>
+</html>

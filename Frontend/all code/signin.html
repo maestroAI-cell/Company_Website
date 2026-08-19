@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRESPRINT Plc - Sign In</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+
+  <body>
+
+<!-- Header code(consistent for all pages) -->
+    <header class="header">
+      <div class="header__logo">
+        <svg
+          class="header__logo-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 50"
+          width="200"
+          height="100"
+        >
+          <!-- Infinity Symbol Path -->
+          <path
+            d="M10,25 
+            C10,5 40,5 50,25 
+            C60,45 90,45 90,25 
+            C90,5 60,5 50,25 
+            C40,45 10,45 10,25 Z"
+            fill="none"
+            stroke="white"
+            stroke-width="4"
+          />
+        </svg>
+        <span>INFINITY TECH</span>
+      </div>
+
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="team.html">Our Team</a>
+        <a href="news.html">News</a>
+        <a href="about-page.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+      <div class="header__actions">
+        
+        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+
+<!-- Sign In form -->
+    <div class="container">
+      <form class="signin-form">
+        <h2>Welcome Back</h2>
+        <p>Sign in to continue</p>
+
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+
+        <div class="options">
+          <label>
+            <input type="checkbox" />
+            Always remember
+          </label>
+
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">Sign In</button>
+
+        <p class="signup">
+          Don't have an account?
+          <a href="#">Create Account</a>
+        </p>
+      </form>
+    </div>
+
+        <footer class="footer">
+      <a href="#" class="footer__link">Privacy Policy</a>
+      <a href="#" class="footer__link">FAQs</a>
+      <p class="footer__copyright">
+        &copy; 2026 Infinity Tech. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>

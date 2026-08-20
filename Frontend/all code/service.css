@@ -85,15 +85,15 @@ body {
 /* SERVICES SECTION */
 
 .services-section {
-    min-height: 100vh;
-    padding: 80px 8%;
-    background: linear-gradient(
-        135deg,
-        #ffffff,
-        #f1f7ff
-    );
+         height: 300px;
+    background-image: url("./Images/Screenshot_20260818_091520_Google.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    border-radius: 30px; 
 }
-
 
 /* HEADING */
 
@@ -101,6 +101,7 @@ body {
     text-align: center;
     max-width: 650px;
     margin: 0 auto 55px;
+    flex: 1;
 }
 
 .section-label {
@@ -112,7 +113,7 @@ body {
 }
 
 .services-heading h1 {
-    color: #123b6d;
+    color:white;
     font-size: 42px;
     margin-bottom: 15px;
 }
@@ -129,10 +130,9 @@ body {
 .services-grid {
     max-width: 1100px;
     margin: auto;
-
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     gap: 25px;
 }
 
@@ -140,15 +140,11 @@ body {
 /* SERVICE CARDS */
 
 .service-card {
-    background: rgba(255, 255, 255, 0.95);
-
+    background: white;
     border: 1px solid #e2edfa;
-    border-radius: 18px;
-
+    border-radius: 20px;
     padding: 30px;
-
     box-shadow: 0 8px 25px rgba(35, 88, 145, 0.10);
-
     transition: 0.3s ease;
 }
 

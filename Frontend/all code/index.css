@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -52,7 +51,6 @@ body {
     white-space: nowrap;
 }
 
- 
 .header__nav {
   display: flex;
   gap: 24px;
@@ -113,13 +111,13 @@ body {
 
 .hero-content h1 {
     font-size: 58px;
-     color:white;
+    color:white;
     margin-bottom: 20px;
 }
 
 .hero-content p {
     font-size: 20px;
-     color:white;
+    color:white;
     line-height: 1.7;
     margin-bottom: 30px;
 }
@@ -365,6 +363,3 @@ margin-bottom:30px;
 
 
 
- 
-
- 

@@ -1,7 +1,11 @@
-/* =====================================================
-   NEWS PAGE JAVASCRIPT
-   ===================================================== */
+// Heder menu button fuunctionality
+const menuButton = document.querySelector('.header__menu-btn');
 
+const nav = document.querySelector('.header__nav');
+
+menuButton.addEventListener('click', function() {
+    nav.classList.toggle('active');
+});
 // LOAD MORE BUTTON FUNCTIONALITY
 // This handles clicking "Load More Articles" to show additional content
 
@@ -124,8 +128,8 @@ readMoreLinks.forEach(link => {
       behavior: 'smooth'
     });
     
-    In a real app, this would navigate to the article's full page
-    window.location.href = this.href;
+    // In a real app, this would navigate to the article's full page
+    // window.location.href = this.href;
   });
 });
 

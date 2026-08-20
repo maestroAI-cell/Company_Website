@@ -95,6 +95,35 @@ a {
   cursor: pointer;
   color: white;
 }
+@media (max-width: 768px) {
+  /* .header {
+    justify-content: space-between;
+    gap: 12px;
+  } */
+  .header__menu-btn {
+    display: block;
+  }
+
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header__nav.active {
+    display: flex;
+  }
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    border-top: 1px solid #eee;
+    background-color: #666;
+}
+
 .header__nav a {
   text-decoration: none;
   color: #ffffff;

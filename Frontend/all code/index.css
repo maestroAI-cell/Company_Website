@@ -79,6 +79,9 @@ body {
   font-size: 14px;
 }
 
+.header__nav a:hover {
+color: #42b7ff;
+}
 
 
 /* ================= HERO ================= */

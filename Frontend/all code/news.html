@@ -1,201 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PRESPRINT Plc - News & Insights</title>
-  <link rel="stylesheet" href="news.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRESPRINT Plc - News</title>
+
+    <link rel="stylesheet" href="news.css">
 </head>
+
 <body>
-  <header class="header">
 
-    <div class="header__logo">
-        <img src="./Images/headerlogo.png" alt="PRESPRINT PLC Logo">
-        <span>PRESPRINT PLC</span>
-    </div>
-    
-      <nav class="header__nav">
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="news.html">News</a>
-          <a href="about-page.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
-      </nav>
-      <div class="header__actions">
-      
-        <button class="header__menu-btn" aria-label="Toggle menu">☰</button>
-      </div>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="header__logo">
+            <img src="./Images/headerlogo.png" alt="PRESPRINT PLC Logo">
+            <span>PRESPRINT PLC</span>
+        </div>
+
+        <nav class="header__nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="news.html">News</a>
+            <a href="about-page.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="header__actions">
+            <button class="header__menu-btn" aria-label="Toggle menu">
+                ☰
+            </button>
+        </div>
+
     </header>
-<!-- ============================================= -->
-    <!-- End of header code (Reusable throughout all pages
-  <main class="news-page">
-    
-    !-- FEATURED NEWS HERO SECTION -->
-    <!-- This is the large prominent article at the top -->
 
-    <section class="featured-news">
-      <div class="featured-news__container">
-        <div class="featured-news__image">
-          <!-- Use Unsplash URLs or local images. Example: /images/tech-innovation.jpg -->
-          <!-- Search terms: "AI technology", "cybersecurity", "cloud computing" -->
-          <img src="../all code/Images/thisisengineering-omrpeqLz6Po-unsplash.jpg" 
-                alt="Latest Technology News Insights" class="featured-news__img">
-        </div>
-        <div class="featured-news__content">
-          <span class="featured-news__badge">Featured</span>
-          <h1 class="featured-news__title">Latest Technology News Insights</h1>
-          <p class="featured-news__description">
-            Stay informed with the latest innovations. Cybersecurity updates, AI breakthroughs, 
-            software trends and company announcements from Infinity Tech.
-          </p>
-          <a href="#" class="featured-news__btn">Read More </a>
-        </div>
-      </div>
-    </section>
 
-    <!-- MAIN CONTENT WRAPPER (flex layout for sidebar + articles) -->
-    <div class="news-layout">
-      
-      <!-- SIDEBAR WITH CATEGORIES -->
-      <aside class="sidebar">
-        <div class="sidebar__section">
-          <h3 class="sidebar__title">Categories</h3>
-          <ul class="categories-list">
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="ai">
-                Artificial Intelligence
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="cybersecurity">
-                Cybersecurity
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="software">
-                Software Development
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="cloud">
-                Cloud Computing
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="web">
-                Web Development
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="robotics">
-                Robotics
-              </a>
-            </li>
-            <li class="categories-list__item">
-              <a href="#" class="categories-list__link" data-category="company">
-                Company News
-              </a>
-            </li>
-          </ul>
-        </div>
+    <!-- ================= NEWS PAGE ================= -->
 
-        <!-- RECENT POSTS SIDEBAR SECTION -->
-        <div class="sidebar__section">
-          <h3 class="sidebar__title">Recent Posts</h3>
-          <ul class="recent-posts">
-            <li class="recent-posts__item">
-              <a href="#" class="recent-posts__link">
-                Why every business needs a website: Top 5 AI trends in 2026
-              </a>
-            </li>
-            <li class="recent-posts__item">
-              <a href="#" class="recent-posts__link">
-                The future of cloud computing
-              </a>
-            </li>
-            <li class="recent-posts__item">
-              <a href="#" class="recent-posts__link">
-                How to stay safe online
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+    <main class="news-page">
 
-      <!-- ARTICLES GRID -->
-      <section class="articles">
-        <h2 class="articles__title">Latest Articles</h2>
-        
-        <!-- ARTICLE GRID CONTAINER (3 columns on desktop) -->
-        <div class="articles__grid">
-          
-          <!-- ARTICLE CARD 1 -->
-          <article class="article-card">
-            <div class="article-card__image-wrapper">
-              <img src="./all code/Images/jakub-pabis-i5Ugf0xc22Q-unsplash.jpg" 
-                    alt="Tech Innovation" class="article-card__image">
-              <span class="article-card__category">Tech Innovation</span>
+
+        <!-- ================= FEATURED NEWS ================= -->
+
+        <section class="featured-news">
+
+            <div class="featured-news__content">
+
+                <span class="featured-news__badge">
+                    FEATURED
+                </span>
+
+                <h1>
+                    Latest News Insights
+                </h1>
+
+                <p>
+                    Stay informed with the latest developments,
+                    and company news from PRESPRINT Plc.
+                </p>
+
+                <a href="#" class="featured-news__btn">
+                    Read More
+                </a>
+
             </div>
-            <div class="article-card__content">
-              <h3 class="article-card__title">Discover the next wave of innovations</h3>
-              <p class="article-card__excerpt">
-                Explore breakthrough technologies that are shaping tomorrow's business landscape.
-              </p>
-              <a href="#" class="article-card__read-more">Read Article </a>
-            </div>
-          </article>
 
-          <!-- ARTICLE CARD 2 -->
-          <article class="article-card">
-            <div class="article-card__image-wrapper">
-              <img src="../all code/Images/igor-omilaev-eGGFZ5X2LnA-unsplash.jpg" 
-                   alt="Artificial Intelligence" class="article-card__image">
-              <span class="article-card__category">Artificial Intelligence</span>
-            </div>
-            <div class="article-card__content">
-              <h3 class="article-card__title">Learn how AI is reshaping everyday life</h3>
-              <p class="article-card__excerpt">
-                From smart assistants to predictive analytics, AI breakthroughs are everywhere.
-              </p>
-              <a href="#" class="article-card__read-more">Read Article </a>
-            </div>
-          </article>
 
-          <!-- ARTICLE CARD 3 -->
-          <article class="article-card">
-            <div class="article-card__image-wrapper">
-              <img src="../all code/Images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg" 
-                    alt="Data & Cybersecurity" class="article-card__image">
-              <span class="article-card__category">Cybersecurity</span>
-            </div>
-            <div class="article-card__content">
-              <h3 class="article-card__title">Protect your data in an evolving threat landscape</h3>
-              <p class="article-card__excerpt">
-                Essential cybersecurity strategies and cyber threats explained for modern businesses.
-              </p>
-              <a href="#" class="article-card__read-more">Read Article </a>
-            </div>
-          </article>
+            <div class="featured-news__image">
 
-        </div>
+                <img
+                    src="./Images/Screenshot_20260818_091400_Google.jpg"
+                    alt="Latest News"
+                >
 
-        <!-- LOAD MORE BUTTON -->
-        <div class="articles__load-more">
-          <button class="btn btn--primary" id="loadMoreBtn">Load More Articles</button>
-        </div>
-      </section>
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <h2>News Categories</h2>
+
+            <div class="categories-list">
+
+                <a href="#" class="categories-list__link" data-category="cybersecurity">
+                    Cybersecurity
+                </a>
+
+                <a href="#" class="categories-list__link" data-category="software">
+                    Software Development
+                </a>
+
+                <a href="#" class="categories-list__link" data-category="cloud">
+                    Cloud Computing
+                </a>
+
+                <a href="#" class="categories-list__link" data-category="web">
+                    Web Development
+                </a>
+
+                <a href="#" class="categories-list__link" data-category="robotics">
+                    Robotics
+                </a>
+
+                <a href="#" class="categories-list__link" data-category="company">
+                    Company News
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ARTICLES ================= -->
+
+        <section class="articles">
+
+            <h2 class="articles__title">
+                Latest Articles
+            </h2>
+
+
+            <div class="articles__grid">
+
+
+                <!-- ARTICLE 1 -->
+
+                <article class="article-card">
+
+                    <div class="article-card__image-wrapper">
+
+                        <img
+                            src="./Images/Screenshot_20260818_091520_Google.jpg"
+                            alt="Tech Innovation"
+                            class="article-card__image"
+                        >
+
+                      
+
+                    </div>
+
+
+                    <div class="article-card__content">
+
+                        <h3 class="article-card__title">
+                            Discover the next wave of innovations
+                        </h3>
+
+                        <p class="article-card__excerpt">
+                            Explore breakthrough technologies that are
+                            shaping tomorrow's business landscape.
+                        </p>
+
+                        <a href="#" class="article-card__read-more">
+                            Read Article 
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 2 -->
+
+                <article class="article-card">
+
+                    <div class="article-card__image-wrapper">
+
+                        <img
+                            src="./Images/Screenshot_20260818_091341_Google.jpg"
+                            alt="Artificial Intelligence"
+                            class="article-card__image"
+                        >
+
+                    </div>
+
+
+                    <div class="article-card__content">
+
+                        <h3 class="article-card__title">
+                            Learn how AI is reshaping everyday life
+                        </h3>
+
+                        <p class="article-card__excerpt">
+                            From smart assistants to predictive analytics,
+                            AI breakthroughs are everywhere.
+                        </p>
+
+                        <a href="#" class="article-card__read-more">
+                            Read Article 
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ARTICLE 3 -->
+
+                <article class="article-card">
+
+                    <div class="article-card__image-wrapper">
+
+                        <img
+                            src="./Images/IMG-20260818-WA0230.jpg"
+                            alt="Cybersecurity"
+                            class="article-card__image"
+                        >
+
+                        
+
+                    </div>
+
+
+                    <div class="article-card__content">
+
+                        <h3 class="article-card__title">
+                            Protect your data in an evolving threat landscape
+                        </h3>
+
+                        <p class="article-card__excerpt">
+                            Essential cybersecurity strategies and
+                            cyber threats explained for modern businesses.
+                        </p>
+
+                        <a href="#" class="article-card__read-more">
+                            Read Article 
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+
+            <!-- LOAD MORE -->
+
+            <div class="articles__load-more">
+
+                <button
+                    class="btn btn--primary"
+                    id="loadMoreBtn"
+                >
+                    Load More Articles
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer-copyright">
+
+        <p>
+            © 2026 PRESPRINT Plc. All Rights Reserved
+        </p>
+
+        <p>
+            Powered by Group 2
+        </p>
 
     </div>
-  </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer__container">
-      <p class="footer__text">© 2026 PRESPRINT Plc. All Rights Reserved</p>
-    </div>
-  </footer>
 
-  <script src="news.js"></script>
+    <!-- <script src="news.js"></script> -->
+
 </body>
+
 </html>

@@ -153,12 +153,9 @@ body {
 
 .service-card:hover {
     transform: translateY(-8px);
-
     border-color: #b8d7ff;
-
     box-shadow: 0 15px 35px rgba(35, 88, 145, 0.18);
 }
-
 
 /* ICON */
 

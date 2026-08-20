@@ -6,12 +6,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  color: #222;
-  line-height: 1.5;
+
 }
 /* css codes for the header */
 .header {
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 32px;
@@ -77,56 +76,72 @@ body {
 /* header codes ends here */
 
 /* css for the hero section */
-.hero{
-    width: 90%;
-    margin:80px auto;
+.hero {
+
+    background-position: center;
+    border-radius: 0 0 30px 30px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    
+    gap: 80px;
+    color: white;
+     height: 300px;
+    background-image: url("./Images/Screenshot_20260818_091520_Google.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 13px;
+    border-radius: 30px;
 }
-.hero-text{
-    width:45%;
-    font-size: medium;
 
+.hero-about span {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-left: 5px solid white;
+    padding-left: 15px;
 }
 
-.hero-text h1{
-    font-size: 65px;
-    margin-bottom: 30px;
-     color:   #003366;
-     /* text-align: center; */
-     
+.hero-text {
+    flex: 2;
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
+    padding-left: 60px;
 }
-.hero-text h1:hover{
-        transform: translate(-3px);
-        transition:0.3s ease;
-        text-shadow:0 8px 20px
-            #003366;
+
+.hero-text h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    margin: 0 0 20px;
+    font-weight: 700;
 }
-.hero-text p{
+
+.hero-text p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 500;
+}
+.values {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.values-text {
+    background: #f5f8fc;
+    padding: 40px;
+    border-radius: 15px;
+    border-left: 5px solid #003366;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.values-text p {
+    font-size: 17px;
     line-height: 1.8;
-    margin-bottom: 30px;
-    font-size: 15px;
-    text-align: justify;
+    color: #444;
+    margin: 0 0 30px;
 }
-.hero-image{
-    width: 50%;
-}
-.hero-image img{
-    width: 100%;
-    border-radius: 10px;
-}
-span{
-  color:white;
-}
-.hero-image:hover{
-        transform: translate(-3px);
-        transition:0.3s ease;
-        box-shadow:0 8px 20px
-          #003366;
-}
+
+
 /* hero section codes ends here */
 
 /* button codes */

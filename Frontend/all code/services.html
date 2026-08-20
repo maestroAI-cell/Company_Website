@@ -6,42 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRESPRINT Plc - Services</title>
     <link rel="stylesheet" href="service.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
- 
-       <header class="header">
-        <div class="header__logo">
-          <svg
-            class="header__logo-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 50"
-            width="200"
-            height="100"
-          >
-            <!-- Infinity Symbol Path -->
-            <path
-              d="M10,25 
-              C10,5 40,5 50,25 
-              C60,45 90,45 90,25 
-              C90,5 60,5 50,25 
-              C40,45 10,45 10,25 Z"
-              fill="none"
-              stroke="white"
-              stroke-width="4"
-            />
-          </svg>
-          <span>PRESPRINT PLC</span>
-        </div>
-  
-          <nav class="header__nav">
+ <header class="header">
+
+    <div class="header__logo">
+        <img src="./Images/headerlogo.png" alt="PRESPRINT PLC Logo">
+        <span>PRESPRINT PLC</span>
+    </div>
+         
+      <nav class="header__nav">
          <a href="index.html">Home</a>
+         <a href="services.html">Services</a>
+         <a href="gallery.html">Gallery</a>
+         <a href="news.html">News</a>
          <a href="about-page.html">About Us</a>
          <a href="contact.html">Contact Us</a>
-        <a href="gallery.html">Gallery</a>
-         <a href="news.html">News</a>
       </nav>
   
         <div class="header__actions">
@@ -49,14 +29,15 @@
         </div>
       </header>
 
- <div class="body-card">
+     <section class="body-card">
     <section class="services-section">
     <div class="services-heading">
         <h1>Our Services</h1>
     </div>
-    <div class="services-grid">
+    </section>
 
         <!-- Server Administration -->
+        <div class="services-grid">
         <div class="service-card">
             <div class="icon-box">
                 <i class="fa-solid fa-server"></i>
@@ -66,6 +47,7 @@
                 Setting up,managing ,and maintaining servers so that websites,applications,files, and other services work properly.
             </p>                 
         </div>
+        
         <!-- Fabric Printing-->
         <div class="service-card">
             <div class="icon-box">
@@ -86,12 +68,27 @@
              Using modern printers to produce things like,novels,textbook,posters,banners,manuals,flyers,and business card.
             </p>
         </div>
+        <!--Typesetting-->
+        <div class="service-card">
+         <h3>Typesetting</h3>
+          <p> our typesetting department transforms raw text and content into well-organized, professional documents ready for publication and printing. We carefully arrange text, images, tables, headings, and page layouts to ensure a clean and attractive final product.
+         </P>
+        </div>
+        <!--Offset printing-->
+        <div class="service-card">
+        <h3>Offset Printing</h3>
+       <p>our offset printing service delivers high-quality, professional prints for both small and large scale.It is suitable for producing consistent, sharp, and durable printed materials.</p>
+       </div>
+       <!--Mounting & Plate Making-->
+       <div class="service-card">
+       <h3>Mounting & Plate Making</h3>
+       <P>Our mounting and plate making services prepare printing materials for accurate and efficient production. We carefully position artwork and prepare printing plates to ensure proper alignment, clarity, and consistent results throughout the printing process.</p>
+       </div>
         <!-- IT Consulting-->
         <div class="service-card">
             <div class="icon-box">
                 <i class="fa-solid fa-lightbulb"></i>
             </div>
-
             <h3>IT Consulting</h3>
             <p>
               Giving professional advice and helping businesses choose the right technology, software,and computer solutions for their needs.
@@ -119,10 +116,12 @@
             </p>
         </div>
     </div>
+    </div>
 </section>
 </body>
 <footer class="footer">
-       <p> @2026 Presprint Plc. All Rights Reserved  </p>
+       <p> @2026 PRESPRINT Plc. All Rights Reserved  </p>
+       <P>Powered by Group 2</P>
 </footer>
 
 </html>

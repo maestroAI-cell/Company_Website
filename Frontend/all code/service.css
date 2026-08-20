@@ -156,30 +156,6 @@ body {
     border-color: #b8d7ff;
     box-shadow: 0 15px 35px rgba(35, 88, 145, 0.18);
 }
-
-/* ICON */
-
-.icon-box {
-    width: 55px;
-    height: 55px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #eaf4ff;
-    color: #1677ff;
-
-    border-radius: 12px;
-
-    margin-bottom: 20px;
-}
-
-.icon-box i {
-    font-size: 24px;
-}
-
-
 /* TITLE */
 
 .service-card h3 {
@@ -193,11 +169,9 @@ body {
 /* DESCRIPTION */
 
 .service-card p {
-    color: #667085;
-
+    color: black;
     line-height: 1.7;
     font-size: 15px;
-
     margin-bottom: 20px;
 }
 

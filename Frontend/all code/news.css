@@ -173,14 +173,15 @@ CATEGORIES
 }
 .categories-list__link {
   padding: 10px 18px;
-  background: #003b70;
+  border: 1px solid #003b70;
   border-radius: 5px;
-  color: white;
+  color: #003b70;
   font-size: 14px;
   transition: 0.3s;
 }
 .categories-list__link:hover {
-  background-color: #00599f;
+  background-color: #003b70;
+  color: white;
 }
 /* ARTICLES
  */

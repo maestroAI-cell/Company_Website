@@ -1,4 +1,4 @@
-// Heder menu button fuunctionality
+// Header menu button functionality
 const menuButton = document.querySelector('.header__menu-btn');
 
 const nav = document.querySelector('.header__nav');
@@ -39,42 +39,39 @@ const additionalArticles = [
 let articlesLoaded = 0; // Track how many times "Load More" has been clicked
 
 // Event listener: when user clicks "Load More Articles"
-loadMoreBtn.addEventListener('click', function() {
-  // Get the articles grid container where new articles will be added
-  const articlesGrid = document.querySelector('.articles__grid');
-  
-  // Loop through the next batch of articles to display
-  for (let i = 0; i < 8; i++) {
-    // Calculate which article to display (cycles through the array)
-    const articleIndex = (articlesLoaded * 3 + i) % additionalArticles.length;
-    const article = additionalArticles[articleIndex];
-    
-    // Create a new article card HTML element
-    const articleCard = createArticleCard(article);
-    
-    // Add the new card to the grid
-    articlesGrid.appendChild(articleCard);
-  }
-  
-  // Increment counter to track pagination
-  articlesLoaded++;
-  
-  // Optional: hide "Load More" button after 3 clicks (stop infinite scroll)
-  if (articlesLoaded >= 2) {
-    loadMoreBtn.style.display = 'none';
-  }
-});
 
-// HELPER FUNCTION: Create article card HTML
-// This function builds the HTML structure for each article card dynamically
-// Why? We use this when creating new articles on "Load More" click
+loadMoreBtn.addEventListener('click', function() {
+
+  if (loadMoreBtn.textContent === 'Load More') {
+    // Load more articles
+    
+    articlesLoaded++
+
+  if (articlesLoaded >= 4) {
+    loadMoreBtn.textContent = 'Load Less';
+
+  } else {
+
+    // Remove the extra articles. 
+
+    article.innerHTML = '';
+
+    articlesLoaded = 1;
+    loadMoreBtn.textContent = 'Load More'
+  }
+  }
+
+})
+
+// This function builds the HTML structure for each article card 
+
 
 function createArticleCard(articleData) {
   // Create the article container
   const article = document.createElement('article');
   article.className = 'article-card';
   
-  // Build the complete HTML using template literals (cleaner than concatenation)
+  // Build the complete HTML using template literals 
   article.innerHTML = `
     <div class="article-card__image-wrapper">
       <img src="${articleData.image}" alt="${articleData.alt}" class="article-card__image">
@@ -90,7 +87,7 @@ function createArticleCard(articleData) {
   return article;
 }
 
-// CATEGORY FILTER FUNCTIONALITY (optional)
+// CATEGORY FILTER (optional)
 // This allows users to click categories and filter articles
 
 const categoryLinks = document.querySelectorAll('.categories-list__link');

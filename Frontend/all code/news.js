@@ -17,21 +17,21 @@ const additionalArticles = [
     title: 'Cloud Architecture Best Practices',
     excerpt: 'Building scalable and secure cloud infrastructure for enterprise applications.',
     category: 'Cloud Computing',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop',
+    image: "./Images/IMG-20260821-WA0022.jpg",
     alt: 'Cloud Computing'
   },
   {
     title: 'Web Development Trends 2026',
     excerpt: 'Modern frameworks and tools shaping the future of web development.',
     category: 'Web Development',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&h=250&fit=crop',
+    image: "./Images/IMG-20260821-WA0021.jpg",
     alt: 'Web Development'
   },
   {
-    title: 'Robotics Revolution in Manufacturing',
-    excerpt: 'How automation and robotics are transforming industrial processes.',
+    title: 'Heavy Machinery in Manufacturing',
+    excerpt: 'How heavy-duty machines are transforming industrial processes.',
     category: 'Robotics',
-    image: 'https://images.unsplash.com/photo-1485579149c01123123a8e7416?w=400&h=250&fit=crop',
+    image: "./Images/IMG-20260821-WA0022.jpg",
     alt: 'Robotics'
   }
 ];
@@ -44,7 +44,7 @@ loadMoreBtn.addEventListener('click', function() {
   const articlesGrid = document.querySelector('.articles__grid');
   
   // Loop through the next batch of articles to display
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 8; i++) {
     // Calculate which article to display (cycles through the array)
     const articleIndex = (articlesLoaded * 3 + i) % additionalArticles.length;
     const article = additionalArticles[articleIndex];
@@ -78,12 +78,12 @@ function createArticleCard(articleData) {
   article.innerHTML = `
     <div class="article-card__image-wrapper">
       <img src="${articleData.image}" alt="${articleData.alt}" class="article-card__image">
-      <span class="article-card__category">${articleData.category}</span>
     </div>
+    
     <div class="article-card__content">
       <h3 class="article-card__title">${articleData.title}</h3>
       <p class="article-card__excerpt">${articleData.excerpt}</p>
-      <a href="#" class="article-card__read-more">Read Article →</a>
+      <a href="#" class="article-card__read-more">Read Article </a>
     </div>
   `;
   
@@ -104,17 +104,11 @@ categoryLinks.forEach(link => {
     // Log which category was clicked (for debugging)
     console.log('Filtered by:', selectedCategory);
     
-    // In a real app, you'd:
-    // 1. Send this category to your backend API
-    // 2. Receive filtered articles back
-    // 3. Update the articles grid with results
-    
-    // Example (placeholder):
     // filterArticlesByCategory(selectedCategory);
   });
 });
 
-// SMOOTH SCROLL EFFECT (bonus interactivity)
+// SMOOTH SCROLL EFFECT 
 // When user clicks a "Read Article" link, smooth scroll to top
 const readMoreLinks = document.querySelectorAll('.article-card__read-more, .featured-news__cta');
 
@@ -128,7 +122,7 @@ readMoreLinks.forEach(link => {
       behavior: 'smooth'
     });
     
-    // In a real app, this would navigate to the article's full page
+    // this would navigate to the article's full page
     // window.location.href = this.href;
   });
 });

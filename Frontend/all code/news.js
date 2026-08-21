@@ -78,8 +78,8 @@ function createArticleCard(articleData) {
   article.innerHTML = `
     <div class="article-card__image-wrapper">
       <img src="${articleData.image}" alt="${articleData.alt}" class="article-card__image">
-      <span class="article-card__category">${articleData.category}</span>
     </div>
+    
     <div class="article-card__content">
       <h3 class="article-card__title">${articleData.title}</h3>
       <p class="article-card__excerpt">${articleData.excerpt}</p>
